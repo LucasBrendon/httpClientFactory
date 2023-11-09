@@ -1,2 +1,3 @@
-# httpClientFactory
- Demo Http Client Factory e Retry Pattern utilizando Polly.
+# Projeto C# com HttpClient Factory, Retry Pattern e Circuit Breaker usando Polly
+
+ 
