@@ -17,7 +17,7 @@ namespace HttpClientFactoryDemo.Services
 
         public async Task<Endereco> ConsultarEndereco(int cep)
         {
-            var url = $"https://viacep.com.br/ws/{cep}";
+            var url = $"https://viacep.com.br/ws/{cep}/json/";
 
             var response =  await _httpClient.GetAsync(url);
 
