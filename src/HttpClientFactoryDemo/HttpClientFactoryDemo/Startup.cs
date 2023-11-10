@@ -30,7 +30,6 @@ namespace HttpClientFactoryDemo
             var circuitBrake = HttpPolicyExtensions.HandleTransientHttpError()
                 .CircuitBreakerAsync(2, TimeSpan.FromSeconds(30));
 
-
             services.AddHttpClient<IViaCepHttpService, ViaCepHttpService>()
                 .AddPolicyHandler(retryPolicy)
                 .AddPolicyHandler(circuitBrake);
