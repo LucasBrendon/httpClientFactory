@@ -38,7 +38,7 @@
 <h2>🚀 Como Executar o Projeto Localmente</h2>
 <ol>
   <li>Clone este repositório:</li>
-  <pre><code>git clone https://github.com/seu-usuario/nome-do-repositorio.git</code></pre>
+  <pre><code>git clone https://github.com/LucasBrendon/httpClientFactory.git</code></pre>
   
   <li>Restaure as dependências do projeto:</li>
   <pre><code>dotnet restore</code></pre>
